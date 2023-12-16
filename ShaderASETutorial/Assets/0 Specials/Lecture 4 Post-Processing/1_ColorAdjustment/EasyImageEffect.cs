@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -18,13 +19,8 @@ public class EasyImageEffect : MonoBehaviour
         
     }
 
-    // Source: image from frame buffer
-    // Destination: output image texture
-    void OnRenderImage(RenderTexture source, RenderTexture destination)
+    private void OnRenderImage(RenderTexture source, RenderTexture destination)
     {
-        // 
-        Graphics.Blit(source, destination, material); 
-        
-
+        throw new NotImplementedException();
     }
 }
