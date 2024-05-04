@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TAProRaytracing
+  m_Shader: {fileID: 4800000, guid: 8ceaa123d40ab9345a0b89621cea929c, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BGMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BackgroundMap:
+        m_Texture: {fileID: 2800000, guid: 3423841913886d147a2e9cecd2d9a3a7, type: 3}
+        m_Scale: {x: 0.89, y: 0.8}
+        m_Offset: {x: 0.03, y: 0.15}
+    - _CloudTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Frame:
+        m_Texture: {fileID: 2800000, guid: 7e2f298cf9050194599cf92a6b9255cf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HeightMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HeightMap2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _P2NoiseMap:
+        m_Texture: {fileID: 2800000, guid: 041c46734ad6fc9408574e5fb85a26b0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 2800000, guid: b32d8614b2c968d4b8c8182b48fa53c9, type: 3}
+        m_Scale: {x: 1.1, y: 1.1}
+        m_Offset: {x: -0.06, y: -0.03}
+    - _ParallaxMap2:
+        m_Texture: {fileID: 2800000, guid: 8b95a063f01cb9048a3919f938754d04, type: 3}
+        m_Scale: {x: 0.93, y: 0.6}
+        m_Offset: {x: 0.06, y: 0.24}
+    m_Floats:
+    - _Depth: -0.2
+    - _Depth2: -0.3
+    - _Dpeth: -0.1
+    - _Dpeth2: 3.27
+    - _DstBlendMode: 10
+    - _EnableColorfulBackground: 0
+    - _RangeValue: 0.5
+    - _SrcBlendMode: 5
+    - _Value: 1
+    m_Colors:
+    - BGTint: {r: 1, g: 1, b: 1, a: 1}
+    - _BGTint: {r: 1, g: 1, b: 1, a: 1}
+    - _BackgroundTint: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.5, g: 0.29999998, b: 0.19999996, a: 1}
+    - _FrameTint: {r: 5.992157, g: 5.992157, b: 5.992157, a: 1}
+    - _P2NoiseMapVec: {r: 10, g: 250, b: 1, a: 1}
+    - _P2NoiseTint: {r: 1, g: 1, b: 1, a: 1}
+    - _ParallaxMap2Tint: {r: 0.03773582, g: 0.03773582, b: 0.03773582, a: 1}
+    - _ParallaxMapTint: {r: 1.1486983, g: 1.1486983, b: 1.1486983, a: 1}
+    - __P2NoiseMapVec: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

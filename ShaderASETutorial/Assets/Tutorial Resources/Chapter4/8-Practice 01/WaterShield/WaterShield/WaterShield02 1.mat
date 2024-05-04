@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WaterShield02 1
+  m_Shader: {fileID: 4800000, guid: 6e6252636b42a1d46a98f860c176dd01, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3002
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: fd5160c546c4f9449a5708faddd6591c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: fd5160c546c4f9449a5708faddd6591c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample2:
+        m_Texture: {fileID: 2800000, guid: fd5160c546c4f9449a5708faddd6591c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 0.5
+    - _AlphaClip: 0.01
+    - _ConTrast: 1
+    - _DI: 1
+    - _Distort: 2
+    - _Float0: 1
+    - _Float2: 0.42
+    - _Float4: 0.63
+    - _Float7: 45.9
+    - _HeightWhite: 0.01
+    - _HeightWhite1: 0.01
+    - _Num: 30
+    - _Offset: 28.5
+    - _Power: 7.33
+    - _UVScale: 11.9
+    - _sca: 1
+    m_Colors:
+    - _AlphaFresnel_BSP: {r: 0, g: 2, b: 10, a: 0}
+    - _Color0: {r: 0.38274902, g: 0.925383, b: 1, a: 0}
+    - _Color1: {r: 0.39999977, g: 0.64705884, b: 1, a: 0}
+    - _Color2: {r: 1.4980392, g: 1.4980392, b: 1.4980392, a: 0}
+    - _FresnelColor: {r: 1, g: 1, b: 1, a: 0}
+    - _Fresnel_BSP: {r: 0, g: 0, b: 0, a: 0}
+    - _Fresnel_BSP1: {r: 0, g: 1, b: 5, a: 0}
+    - _NVFade_P_S: {r: 1, g: 0, b: 0, a: 0}
+    - _Speed_Distort: {r: 1, g: 0, b: 0, a: 0}
+    - _Speed_Line: {r: -0.05, g: 0, b: 0, a: 0}
+    - _UVScale: {r: 0.53, g: 1.85, b: 0, a: 0}
+    - _Vector1: {r: -0.1, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

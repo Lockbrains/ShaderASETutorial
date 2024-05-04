@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TAPro_Colorful02
+  m_Shader: {fileID: 4800000, guid: 49fffb9e2dade0548826b4dd8043bb33, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Cube:
+        m_Texture: {fileID: 8900000, guid: 2ce065a2eefa2d94d9931945376a8303, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlowPattern:
+        m_Texture: {fileID: 2800000, guid: 9042dee75146a8e4780f0f0e98a7676b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: af5a9195f18c63940a1466ed0c970181, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _New_Graph_output:
+        m_Texture: {fileID: 2800000, guid: fd7ff4f2aef30e84f88cac91d1c7e58f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise4:
+        m_Texture: {fileID: 2800000, guid: db083c5fd718f1c46aed88e1c8a08dcc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise7:
+        m_Texture: {fileID: 2800000, guid: 286e1366b8e77504982eb9a833afed36, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 0.5
+    - _CubeLevel: 7.38
+    - _Float10: 10
+    - _Float11: 10
+    - _Float12: 100
+    - _Float13: 1
+    - _Float14: 100
+    - _Float2: 1.68
+    - _Float3: 1.22
+    - _Float6: 1
+    - _Float7: 0.38
+    - _Float8: 100
+    - _Wrap1: 0.788
+    - __dirty: 0
+    - _d1: 10
+    - _d2: 20
+    - _d3: 30
+    m_Colors:
+    - _BP_Pow_Scale: {r: 0.01, g: 250, b: 0, a: 0}
+    - _Vector1: {r: 500, g: 1, b: 0, a: 0}
+    - _Vector2: {r: 0, g: 0, b: 0, a: 0}
+    - _Vector3: {r: -1.16, g: 1.35, b: 1.65, a: 0}
+    - _o1: {r: 1.53, g: 0.67, b: 1.99, a: 0}
+    - _o2: {r: 19.1, g: 0.25, b: 0.36, a: 0}
+    - _o3: {r: -1.16, g: 1.35, b: 1.65, a: 0}
+  m_BuildTextureStacks: []

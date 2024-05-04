@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b2425a2284af743826c689403a4924, type: 3}
+  m_Name: Voronoi3D
+  m_EditorClassIdentifier: 
+  m_functionInfo: "// Made with Amplify Shader Editor\n// Available at the Unity
+    Asset Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=18800\n545.1429;247.4286;1699.429;748.7143;703.7137;350.0714;1;True;False\nNode;AmplifyShaderEditor.FunctionInput;2;-312.7143,5.928558;Inherit;False;Pos;3;0;False;1;0;FLOAT3;0,0,0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.BreakToComponentsNode;5;161.2861,26.92862;Inherit;False;FLOAT2;1;0;FLOAT2;0,0;False;16;FLOAT;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4;FLOAT;5;FLOAT;6;FLOAT;7;FLOAT;8;FLOAT;9;FLOAT;10;FLOAT;11;FLOAT;12;FLOAT;13;FLOAT;14;FLOAT;15\nNode;AmplifyShaderEditor.CustomExpressionNode;3;-132.7143,15.92856;Inherit;False;return
+    Voronoi3D(pos)@;2;False;1;True;pos;FLOAT3;0,0,0;In;;Inherit;False;My Custom Expression;True;False;0;1;0;FLOAT3;0,0,0;False;1;FLOAT2;0\nNode;AmplifyShaderEditor.FunctionOutput;0;367,-38;Inherit;False;True;-1;Noise;0;True;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionOutput;4;397.2861,99.9286;Inherit;False;False;-1;ID;1;False;1;0;FLOAT;0;False;1;FLOAT;0\nWireConnection;5;0;3;0\nWireConnection;3;0;2;0\nWireConnection;0;0;5;0\nWireConnection;4;0;5;1\nASEEND*/\n//CHKSM=7EB6ED62B88452E121C78A2EF618825E7DF14179"
+  m_functionName: 
+  m_description: Voronoi3D
+  m_additionalIncludes:
+    m_additionalIncludes: []
+    m_outsideIncludes: []
+  m_additionalPragmas:
+    m_additionalPragmas: []
+    m_outsidePragmas: []
+  m_additionalDirectives:
+    m_validData: 0
+    m_isDirty: 1
+    m_moduleName: ' Additional Directives'
+    m_independentModule: 1
+    m_additionalDirectives:
+    - {fileID: 0}
+    m_shaderFunctionDirectives: []
+    m_nativeDirectives: []
+    m_nativeDirectivesIndex: -1
+    m_nativeDirectivesFoldout: 0
+    m_directivesSaveItems:
+    - LineType: 3
+      LineValue: float hash(float x) { return frac(x + 1.3215 * 1.8152); }             
+        float hash3(float3 a) { return frac((hash(a.z * 42.8883) + hash(a.y * 36.9125)
+        + hash(a.x * 65.4321)) * 291.1257); }              float3 rehash3(float x)
+        { return float3(hash(((x + 0.5283) * 59.3829) * 274.3487), hash(((x + 0.8192)
+        * 83.6621) * 345.3871), hash(((x + 0.2157f) * 36.6521f) * 458.3971f)); }             
+        float sqr(float x) {return x*x;}             float fastdist(float3 a, float3
+        b) { return sqr(b.x - a.x) + sqr(b.y - a.y) + sqr(b.z - a.z); }             
+        float2 Voronoi3D(float3 xyz)             {                 float x = xyz.x;                
+        float y = xyz.y;                 float z = xyz.z;                 float4
+        p[27];                 for (int _x = -1; _x < 2; _x++) for (int _y = -1;
+        _y < 2; _y++) for(int _z = -1; _z < 2; _z++) {                     float3
+        _p = float3(floor(x), floor(y), floor(z)) + float3(_x, _y, _z);                    
+        float h = hash3(_p);                     p[(_x + 1) + ((_y + 1) * 3) + ((_z
+        + 1) * 3 * 3)] = float4((rehash3(h) + _p).xyz, h);                 }                
+        float m = 9999.9999, w = 0.0;                 for (int i = 0; i < 27; i++)
+        {                     float d = fastdist(float3(x, y, z), p[i].xyz);                    
+        if(d < m) { m = d; w = p[i].w; }                 }                 return
+        float2(m, w);             }
+      GUIDToggle: 0
+      GUIDValue: 
+      Origin: 2
+  m_nodeCategory: 3
+  m_customNodeCategory: 
+  m_previewPosition: 0
+  m_hidden: 0

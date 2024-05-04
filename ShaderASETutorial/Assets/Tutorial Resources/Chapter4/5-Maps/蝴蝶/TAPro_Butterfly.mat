@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TAPro_Butterfly
+  m_Shader: {fileID: 4800000, guid: cc004c1dcf3767441b9adf9a5d8e3ef7, type: 3}
+  m_ShaderKeywords: _KEYWORD0_KEY2
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 82657161fac17bc42a5874503b7c95e4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: 9ae2f733c0d0b4243beccea3002e16f5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: bc8d608412eba3a4e848ffd5d695eff7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _anisotropic1_AO:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ChangeColor: 0
+    - _Float4: 0.9
+    - _Keyword0: 2
+    m_Colors:
+    - _Cloud_Pow_Scale: {r: 2, g: 8, b: 0, a: 0}
+    - _PivotPoint: {r: 0, g: 0.2, b: 0, a: 0}
+    - _Vec_UVScale_Depth_Pow_Scale: {r: 700, g: 0.2, b: 50, a: 10000}
+    - _Vector1: {r: 0, g: 0, b: 0, a: 0}
+    - _Vector4: {r: 0, g: 0.2, b: 0, a: 0}
+  m_BuildTextureStacks: []

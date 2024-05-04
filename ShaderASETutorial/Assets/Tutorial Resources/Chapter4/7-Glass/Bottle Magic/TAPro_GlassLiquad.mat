@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TAPro_GlassLiquad
+  m_Shader: {fileID: 4800000, guid: e06beaab897b0ba438c676169179ed0e, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3005
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: a6f1fb37ab3072842bff92062ed1bca2, type: 3}
+        m_Scale: {x: 0.4, y: 0.4}
+        m_Offset: {x: -1.52, y: 0.62}
+    m_Floats:
+    - BaseIntensity: 1
+    - _BaseIntensity: 0.72
+    - _HeightMax: 1
+    - _HeightMin: 0
+    - _LiquadHeight: 3.06
+    - _UVCut: 0.585
+    - _UVScale: 1
+    m_Colors:
+    - _Color1: {r: 0, g: 0.5220128, b: 0.7830189, a: 1}
+    - _Color2: {r: 0, g: 0.9150943, b: 0.63658744, a: 1}
+    - _DeepColor: {r: 0.25007626, g: 0.8396226, b: 0.61543244, a: 1}
+    - _LightColor: {r: 0.5471698, g: 0, b: 0.052528147, a: 1}
+    - _TestValu2: {r: 1.42, g: 0, b: 0, a: 0}
+    - _TestValue: {r: -0.04, g: 0.1, b: 6.3, a: 307.62}
+    - _TopColor: {r: 0.7412399, g: 1, b: 0.99759144, a: 1}
+    - _TransColor: {r: 0.1254903, g: 0.6037736, b: 0, a: 1}
+  m_BuildTextureStacks: []

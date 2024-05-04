@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TAPro_Ice03 1
+  m_Shader: {fileID: 4800000, guid: 26db85299d3a111478184aa278990a59, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _IceCube:
+        m_Texture: {fileID: 8900000, guid: db5d9ec0a45e4c048aa0d548acd257d2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IceCube1:
+        m_Texture: {fileID: 8900000, guid: db5d9ec0a45e4c048aa0d548acd257d2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCap:
+        m_Texture: {fileID: 2800000, guid: 469b36224150f2d4e9f44c9538276c3e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 275a6160092b7f2418daf1bbf8c9f3b1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex_0012:
+        m_Texture: {fileID: 2800000, guid: ef2921ba285b2124f93ca7d877408949, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BaseIntensity: 1
+    - _IceCubeIntensity: 8.4
+    - _IceCubeIntensity1: 3.3
+    - _IceCubeMip: 7.17
+    - _IceCubeMip1: 6.2
+    - _MatCapIntensity: 0.644
+    - _MatCapLevel: 5.48
+    - _Smoothness1: 0.325
+    - __dirty: 0
+    m_Colors: []
+  m_BuildTextureStacks: []

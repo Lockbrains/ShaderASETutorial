@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TA102_Iridescence 1
+  m_Shader: {fileID: 4800000, guid: 10561f353e703684a851d4ccb133f27c, type: 3}
+  m_ShaderKeywords: _ENABLEMASK_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CubeMap:
+        m_Texture: {fileID: 8900000, guid: c58015095c9859343b3c0a6f9540e0b8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EnvCubeMap:
+        m_Texture: {fileID: 8900000, guid: db5d9ec0a45e4c048aa0d548acd257d2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IridescenceLut:
+        m_Texture: {fileID: 2800000, guid: 3e6b5eeb954695149808a2fc7b79a212, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: b7a3dbfb04d259646b46d4cf6c14d4c9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCap:
+        m_Texture: {fileID: 2800000, guid: b50425a06e1957449a10eb4ead4fd4e2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCap1:
+        m_Texture: {fileID: 2800000, guid: b50425a06e1957449a10eb4ead4fd4e2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 209086f52be29894eb8f1d88a0fba45f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlphaOffset: 0.35
+    - _Distort: 0.01
+    - _EnableMask: 1
+    - _EnvCubeIntensity: 0.91
+    - _EnvCubeLevel: 6.12
+    - _Float3: 0.3156
+    - _Float5: 0.02
+    - _IrriIntensity: 1.5
+    - _MatCapScale: 1
+    - _MatCapScale1: 1.13
+    - _RefractEta: 0
+    - _RotateAngle: 25.87
+    - _Roughness: 0.028
+    - _SpecularIntensity: 0.1
+    - _SpecularPow: 1
+    - _SpecularWidth: 0.002
+    m_Colors:
+    - _Fresnel_BSP: {r: 0, g: 1, b: 1, a: 0}
+    - _IrrSinVec: {r: 2, g: 2, b: 2, a: 1}
+    - _RotateAxis: {r: 0, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []

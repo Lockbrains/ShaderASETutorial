@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TAPro_WaterDragon Head
+  m_Shader: {fileID: 4800000, guid: bb0474a86aa0b8a46a6be18a69ffddb5, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BODY_normalstga:
+        m_Texture: {fileID: 2800000, guid: c3687e8f3ffdbbb4a9a7861f71a5289a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CubeMap:
+        m_Texture: {fileID: 8900000, guid: 92fc13719fa562e47b315e5d924097a6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CubeMap2:
+        m_Texture: {fileID: 8900000, guid: 8a0fa569f2ff04d43bc7199c8660020c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: 76326d976dfd5c24a94ab8d96ec74654, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: c3687e8f3ffdbbb4a9a7861f71a5289a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 4cc46d525968de941982db4663ebb194, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: fd5160c546c4f9449a5708faddd6591c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample3:
+        m_Texture: {fileID: 2800000, guid: fd5160c546c4f9449a5708faddd6591c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _tex3coord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 0.5
+    - _AlphaClip: 0.001
+    - _CubeMaprotSpeed: -0.1
+    - _DistanceFade: -2.49
+    - _Distort: 5
+    - _Distort1: 3
+    - _Noise3DSpeed: 0.3
+    - _Num: 26.98
+    - _Num1: 26.98
+    - _Offset: 35.02
+    - _Offset1: 35.02
+    - _Power: 2.7
+    - _Power1: 2.7
+    - _Range: 0.316
+    - _ReflectionIntensity: 0.05
+    - _ReflectionIntensity2: 0.1
+    - _UVScale: 5.49
+    - _UVScale1: 5.49
+    m_Colors:
+    - _Color0: {r: 0, g: 0.2544518, b: 1, a: 0}
+    - _Color1: {r: 0.27450943, g: 0.47374225, b: 0.8392157, a: 0}
+    - _Color2: {r: 0, g: 1, b: 0.9202008, a: 0}
+    - _DistanceColor: {r: 0.0039215684, g: 1, b: 0.22720319, a: 0}
+    - _DistanceOffset: {r: 0, g: 1, b: 0, a: 0}
+    - _EyeColor: {r: 47.937256, g: 9.286275, b: 0, a: 0}
+    - _FresnelColor: {r: 0, g: 0.8623601, b: 1.1281558, a: 0}
+    - _FresnelColor1: {r: 0, g: 1.3956499, b: 2.670157, a: 0}
+    - _Fresnel_BSP: {r: 0, g: 1, b: 5, a: 0}
+    - _Fresnel_BSP1: {r: 0, g: 1, b: 5, a: 0}
+    - _Noise3DColor: {r: 0, g: 2.6407778, b: 5.041486, a: 0}
+    - _Noise3DPowScale: {r: 10, g: 1, b: 0, a: 0}
+    - _Noise3DUVScale: {r: 5, g: 0.01, b: 20, a: 0}
+    - _Speed_Distort: {r: 1, g: 0, b: 0, a: 0}
+    - _Speed_Distort1: {r: 1, g: 0, b: 0, a: 0}
+    - _Speed_Line: {r: -0.05, g: 0, b: 0, a: 0}
+    - _Speed_Line1: {r: -0.05, g: 0, b: 0, a: 0}
+    - _UVScale: {r: 22.4, g: 32.2, b: 0, a: 0}
+    - _UVScale1: {r: 0, g: 0, b: 0, a: 0}
+    - _ViewLight: {r: 0.7529412, g: 0.00000006133435, b: 0, a: 0}
+    - _VorUVScale: {r: 20, g: 20, b: 0, a: 0}
+  m_BuildTextureStacks: []

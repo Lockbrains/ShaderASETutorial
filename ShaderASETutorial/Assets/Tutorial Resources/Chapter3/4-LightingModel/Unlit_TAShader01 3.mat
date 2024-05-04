@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Unlit_TAShader01 3
+  m_Shader: {fileID: 4800000, guid: 0e686734eb31fd744946d6fe812951c2, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Lut:
+        m_Texture: {fileID: 2800000, guid: 3e6b5eeb954695149808a2fc7b79a212, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 7bb9f7571bfbc7d48b0dcd5fa41095b4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0.1, y: 0}
+    - _MainTex2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex4:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 5ee3819fcd34c214384a5039ad522270, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 0.485
+    - _DissoveValue: -0.92
+    - _Float2: -2.1
+    - _Mip: 0
+    - _RangeValue: 0.37
+    - _SpecularColorLerp: 1
+    - _StepNum: 2
+    - _Value: 0.5
+    - _VirtualFade: 0
+    - _VirtualLightFade: 147.1
+    - _Wrap: 0
+    m_Colors:
+    - _AmbientColor: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 1}
+    - _BlinPhong_Pow_Scale: {r: 8, g: 1, b: 0, a: 0}
+    - _CheapSSS_Lerp_Pow_Scale: {r: 2.19, g: 1.4, b: 9.14, a: 0}
+    - _Color: {r: 1, g: 1, b: 0, a: 0}
+    - _HDRColor: {r: 0, g: 1, b: 1, a: 0}
+    - _Phong: {r: 1, g: 1, b: 0, a: 0}
+    - _Phong1: {r: 20, g: 10, b: 0, a: 0}
+    - _Phong_Pow_Scale: {r: 4, g: 1, b: 0, a: 0}
+    - _Vec: {r: 1, g: 1, b: 0, a: 0}
+    - _Vector0: {r: 4.8, g: 43.12, b: 0, a: 0}
+    - _Vector1: {r: 0, g: 0, b: 0, a: 0}
+    - _VirtualLightColor: {r: 22.627417, g: 4.7029533, b: 0, a: 1}
+    - _VirtualLightPos: {r: 0, g: 1, b: 14.69, a: 0}
+  m_BuildTextureStacks: []

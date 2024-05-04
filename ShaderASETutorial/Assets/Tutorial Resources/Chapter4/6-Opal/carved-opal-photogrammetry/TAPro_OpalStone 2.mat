@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TAPro_OpalStone 2
+  m_Shader: {fileID: 4800000, guid: 4588c2c987bc9c4449e8e25d92d24772, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CubeMap:
+        m_Texture: {fileID: 8900000, guid: 2ce065a2eefa2d94d9931945376a8303, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CubeMap2:
+        m_Texture: {fileID: 8900000, guid: 87a24d06dddee9f42a59b0451d8dd207, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 044b6515cac3fe44f81b161268f20acb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Float5: 0.1
+    - __dirty: 0
+    - _m: 0.5
+    - _s: -0.39
+    m_Colors:
+    - _F1_BSP: {r: 0, g: 2.13, b: 2.36, a: 0}
+    - _F2_BSP: {r: 0, g: 1, b: 2.09, a: 0}
+    - _PointLightColor: {r: 155.74858, g: 75.020256, b: 0, a: 0}
+    - _PointLightColor2: {r: 7.753514, g: 5.8603644, b: 19.07189, a: 0}
+    - _PointLightVec: {r: -7.848309, g: 0.94, b: 0.2360108, a: 3.77}
+    - _PointLightVec2: {r: -7.848309, g: -0.97, b: 0.2360108, a: 2.1}
+    - _Vec_UVScale_Depth_Pow_Scale: {r: 20, g: 0.1, b: 48.9, a: 200}
+    - _Vector0: {r: 34.7, g: -0.06, b: -0.57, a: 0}
+    - _bp: {r: 32.28, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []
