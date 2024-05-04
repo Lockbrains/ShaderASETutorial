@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TAPro_TAProScan
+  m_Shader: {fileID: 4800000, guid: 180812e91bace98408641b63353734c5, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - _1: 1
+    - _DepthDistance: 0.1
+    - _DepthFade: 1.73
+    - _EdgeDepth: 1
+    - _EdgeIntensity: 6.35
+    - _EdgeWidth: 1.0002
+    - _Float5: 1.7
+    - _Float6: 1
+    - _Float7: 1.1
+    - _Float8: 25.65
+    m_Colors:
+    - _Color0: {r: 1024, g: 694.71375, b: 0, a: 0}
+    - _EdgeColor: {r: 271.17407, g: 51.111343, b: 0, a: 0}
+    - _FracColor: {r: 9.118358, g: 24.280102, b: 44.806767, a: 0}
+    - _FracColor1: {r: 1.4582299, g: 3.585977, b: 3.906161, a: 0}
+  m_BuildTextureStacks: []

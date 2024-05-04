@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ASE_BurnLearning01 1
+  m_Shader: {fileID: 4800000, guid: 87c40dc7692861a4a92653f36171ee97, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 23524f379fcb40c4c99f8397a33d53bc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: 5ee3819fcd34c214384a5039ad522270, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BurningValue: -0.74
+    - _Float2: -0.07
+    - _Global_BurningValue: -1.49
+    - _NoiseScale: 10
+    - _Width: 0.005
+    - __dirty: 0
+    - _burningRange: 0.1
+    m_Colors:
+    - _BurningColor: {r: 21.556644, g: 0.56431, b: 0, a: 0}
+    - _Global_BurningColor: {r: 3.031433, g: 0.21398352, b: 0, a: 0}
+    - _burningColor: {r: 5.3403134, g: 0.11034089, b: 0, a: 0}
+  m_BuildTextureStacks: []
