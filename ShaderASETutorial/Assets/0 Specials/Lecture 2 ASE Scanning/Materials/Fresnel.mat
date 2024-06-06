@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: WaterSurface
-  m_Shader: {fileID: 4800000, guid: c03f159e8ec572a4db00471823df69f9, type: 3}
+  m_Name: Fresnel
+  m_Shader: {fileID: 4800000, guid: 78d0ba3d20abb4860b0913e4b3604fd5, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -16,7 +16,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 3000
   stringTagMap: {}
   disabledShaderPasses: []
   m_LockedProperties: 
@@ -55,10 +55,6 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Noise:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -67,27 +63,11 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _ScanLightTexture:
+        m_Texture: {fileID: 2800000, guid: f34fe654ecbb91147b4d3d5f7cc9faac, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _TextureSample0:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _TextureSample1:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _normal_map_opengl:
-        m_Texture: {fileID: 2800000, guid: d6bdec8d39ffae8418e28e6033c7c646, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _render_map:
-        m_Texture: {fileID: 2800000, guid: 53c8aa8a20ef7bd41b86923579e15645, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _texcoord:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -105,8 +85,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Alpha: 0
     - _AlphaClip: 0
+    - _AlphaCutoff: 0.5
     - _AlphaToMask: 0
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
@@ -115,55 +95,45 @@ Material:
     - _ClearCoatSmoothness: 0
     - _Cull: 2
     - _Cutoff: 0.5
-    - _Depth: 0
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _Distort: 1
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
-    - _Float0: 0.51
+    - _FresnelBias: 0.01
+    - _FresnelPower: 2.25
+    - _FresnelScale: 2.64
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _HeightWhite: 0.51
-    - _MainTexUVScale: 1
+    - _Intensity: 5.15
     - _Metallic: 0
-    - _Num: 0
     - _OcclusionStrength: 1
-    - _Offset: 0
     - _Parallax: 0.005
-    - _Power: 0
+    - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
+    - _RimPower: 2.67
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 0
-    - _UVScale: 3
-    - _WaterHeight: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _AlphaFresnel_BSP: {r: 0, g: 0, b: 0, a: 0}
-    - _BaseColor: {r: 0.581, g: 0.581, b: 0.581, a: 1}
-    - _Color: {r: 0.581, g: 0.581, b: 0.581, a: 1}
-    - _Color0: {r: 0.53154397, g: 0.883347, b: 0.9150943, a: 0}
-    - _Color1: {r: 0.53154397, g: 0.883347, b: 0.9150943, a: 0}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color0: {r: 0.6792453, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FresnelColor: {r: 1, g: 1, b: 1, a: 0}
-    - _Fresnel_BSP: {r: 0, g: 0, b: 0, a: 0}
-    - _NoiseUVSpeed: {r: 1, g: 0, b: 0, a: 0}
-    - _RotateCenter: {r: 0, g: 0, b: 0, a: 0}
+    - _InnerColor: {r: 0.005390823, g: 1, b: 0.13374491, a: 1}
+    - _RimColor: {r: 1, g: 0.7279428, b: 0, a: 1}
+    - _RimLightColor: {r: 0.9339623, g: 0.73960125, b: 0.42796114, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _Speed_Distort: {r: 0.2, g: 0, b: 0, a: 0}
-    - _Speed_Line: {r: -0.01, g: 0, b: 0, a: 0}
-    - _ViewLightColor: {r: 0, g: 0, b: 0, a: 0}
-    - _ViewLight_PS: {r: 0, g: 0, b: 0, a: 0}
+    - _Speed: {r: 0, g: -0.29, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &3563243410507989353
+--- !u!114 &3106682681497468019
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
